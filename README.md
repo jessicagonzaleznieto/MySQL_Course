@@ -1,7 +1,7 @@
 # MySQL_Course
 
 # Content
-All about MySQL Course for Data Analytics and Business Intelligence.
+All about MySQL Course for Data Analytics and Business Intelligence. (and some git)
 
 # Why learn SQL?
 Well, mainly two reasons.
