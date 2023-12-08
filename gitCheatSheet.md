@@ -19,7 +19,7 @@
 
 
 
-# Rest is less common
+### Below is less common
 
 ### Basic Commands
 - Check status: `git status`
