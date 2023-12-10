@@ -14,6 +14,7 @@ Do not write integer within '' since SQL would convert it into a string and it m
 Best practice is not to convert them into strings
 
 **Values must be entered in the exact order that the columns were listed**
+
 <br><br>
 **The INSERT statement - exercise 1**
 
