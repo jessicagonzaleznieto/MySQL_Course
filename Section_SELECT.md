@@ -1,6 +1,6 @@
 /* 
 
-#SECTION - SELECT STATEMENT
+# SECTION - SELECT STATEMENT
 **SELECT...FROM...** -> Used to retrieve data
 SELECT column_1, column _2,... column_n
 FROM table_name;

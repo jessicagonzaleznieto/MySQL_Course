@@ -1,6 +1,6 @@
 /*
 
-#SECTION - INSERT STATEMENT
+# SECTION - INSERT STATEMENT
 
 INSERT INTO table name (column_1, column_2...column_n)
 VALUES (values_1, values_2...values_n);
