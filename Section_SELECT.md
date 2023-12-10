@@ -10,7 +10,7 @@ SELECT
 FROM
 
     table_name;
-
+<br><br>
 
 To select all, use:
 
@@ -633,7 +633,7 @@ ORDER BY salary;
 
 WHERE allows us to set conditions that refer to individual subsets of individual rows
 
-						*conditions applied before re-organizing the output into groups*
+(conditions applied before re-organizing the output into groups)
 <br><br>
 
 Aggregate functions - GROUP BY and HAVING
