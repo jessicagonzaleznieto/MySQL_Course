@@ -25,7 +25,6 @@ SET
 WHERE
     
     emp_no = 999901;
-<br><br>
 
 WHERE clause is very important here. If no conditions provided, all rows of the table will be updated
 <br><br>
