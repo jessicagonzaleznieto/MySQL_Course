@@ -1,9 +1,10 @@
 # SECTION - INSERT STATEMENT
-<br><br>
+
 INSERT INTO table name (column_1, column_2...column_n)
 
 VALUES (values_1, values_2...values_n);
 <br><br>
+
 To look for all column names within a table, go to 'i' (information) for the table and click on 'Columns' tab.
 
 This will allow you to see restrictions and possible options for all columns, too
@@ -22,6 +23,7 @@ Then, in the same table, insert information about employee number 999903. State 
 
 At the end, sort the records from the “titles” table in descending order to check if you have successfully inserted the new record.
 <br><br>
+
 ```sql
 SELECT 
     *
@@ -49,6 +51,7 @@ FROM
 ORDER BY emp_no DESC
 LIMIT 10;
 ```
+
 <br><br>
 **The INSERT statement - exercise 2**
 
@@ -59,6 +62,7 @@ Hint: Use the date ‘9999-01-01’ to designate the contract is for an indefini
 INSERT INTO dept_emp (emp_no, dept_no, from_date, to_date)
 VALUES (999903, 'd005', '1997-10-01', '9999-01-01');
 <br><br>
+
 ```sql
 SELECT 
     *
@@ -66,6 +70,7 @@ FROM
     dept_emp
 ORDER BY emp_no DESC;
 ```
+
 <br><br>
 **Inserting Data INTO a New Table - exercise**
 
@@ -73,6 +78,7 @@ Create a new department called “Business Analysis”. Register it under number
 
 Hint: To solve this exercise, use the “departments” table.
 <br><br>
+
 ```sql
 INSERT INTO departments (dept_no, dept_name)
 VALUES ('d010', 'Business Analysis');
