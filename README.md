@@ -1,3 +1,4 @@
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/zy-jtp/zy-jtp/blob/main/devcard.svg" width="300" alt="Andy Gonzalez's Dev Card"/></a>
 # MySQL_Course
 
 # Content
