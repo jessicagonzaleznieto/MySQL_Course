@@ -20,7 +20,6 @@ In the course, when deleting emp_id 999903 from employees table, it removes it f
 
 **The DELETE Statement – Part II - exercise**
 
-
 Remove the department number 10 record from the “departments” table.
 
 
