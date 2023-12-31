@@ -1,5 +1,4 @@
 # SECTION - SUBQUERIES
-<br><br>
 
 **SQL Subqueries with IN Nested Inside WHERE**
 
