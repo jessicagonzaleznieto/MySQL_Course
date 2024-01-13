@@ -36,7 +36,7 @@ BEGIN
     LIMIT 1000;
 END$$
 
-DEMILITER ; *reassigning the semicolon as the delimeter*
+DEMILITER ; *reassigning the semicolon as the delimiter*
 
 1. *Within the parentheses, you might need to enter parameters; but a procedure can be created without parameters too.*
 <br><br>
@@ -59,7 +59,7 @@ BEGIN
     LIMIT 1000;
 END$$
 
-DELIMETER ;
+DELIMITER ;
 
 CALL employees.select_employees();
 
@@ -210,7 +210,7 @@ SELECT @v_emp_no;
 
 Syntax:
 
-DELIMETER $$
+DELIMITER $$
 CREATE FUNCTION function_name(parameter data_type) RETURNS data_type
 BEGIN
 DECLARE variable_name data_type
