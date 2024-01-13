@@ -7,7 +7,7 @@ An SQL statement, or a set of SQL statements, that can be stored on the database
 There are two types of stored routines:
 - stored procedures
 - functions
-
+<br><br>
 
 **Stored Procedures**
 
@@ -24,12 +24,13 @@ DELIMITER $$
 Query #1;
 Query #2
 END$$
+<br><br>
 
 **Syntax for Stored Procedures**
 
 USE database_name;
 DELIMITER $$ (or //)
-CREATE PROCEDURE procedure_name() 1*always open and close parentheses*
+CREATE PROCEDURE procedure_name() 1. *always open and close parentheses*
 BEGIN
     SELECT * from employees
     LIMIT 1000;
@@ -37,7 +38,8 @@ END$$
 
 DEMILITER ; *reassigning the semicolon as the delimeter*
 
-1*Within the parentheses, you might need to enter parameters; but a procedure can be created without parameters too.*
+1. *Within the parentheses, you might need to enter parameters; but a procedure can be created without parameters too.*
+<br><br>
 
 **Parameters** *represent certain values that the procedure will use to complete the calculation it is supposed to execute*
 
@@ -64,6 +66,7 @@ CALL employees.select_employees();
 ```
 
 *When dropping a nonparameterized procedure, we should not write the parentheses at the end*
+<br><br>
 
 **Stored procedures - Example - Part II - exercise**
 
@@ -87,6 +90,7 @@ DELIMITER ;
 
 CALL avg_emp_salary;
 ```
+<br><br>
 
 **Stored Procedures with Input Parameters**
 
@@ -118,6 +122,7 @@ CALL avg_emp_salary(11300);
 ```
 
 To execute, you can also look for the stored procedure and click on the Execute button, then enter an input value for the parameter
+<br><br>
 
 **Stored Procedures with Output Parameters**
 
@@ -142,6 +147,7 @@ CALL avg_emp_salary_out(11300);
 ```
 
 *Every time you create a procedure containing both IN and OUT parameters, use the SELECT...INTO... structure*
+<br><br>
 
 **Stored procedures with an output parameter - exercise**
 
@@ -165,6 +171,7 @@ END$$
 
 DELIMITER ;
 ```
+<br><br>
 
 **Variables**
 
@@ -197,6 +204,7 @@ SET @v_emp_no = 0;
 CALL emp_info('Aruna','Journel',@v_emp_no);
 SELECT @v_emp_no;
 ```
+<br><br>
 
 **User-Defined Functions**
 
@@ -246,6 +254,7 @@ DELIMITER ;
 
 SELECT f_emp_info('aruna','journel');
 ```
+<br><br>
 
 **Stored Procedures vs User-Defined Functions**
 
@@ -254,6 +263,8 @@ Stored Procedures
 -Does not return a value
 -CALL procedure;
 -Can have multiple OUT parameters
+<br><br>
+
 Functions
 
 -Return a value
